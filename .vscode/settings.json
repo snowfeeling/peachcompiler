@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "vector.h": "c",
+        "buffer.h": "c",
+        "ctype.h": "c",
+        "cmath": "c"
+    }
+}
