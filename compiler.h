@@ -152,6 +152,20 @@ struct scope
     struct scope *parent;
 };
 
+enum
+{
+    SYMBOL_TYPE_NODE,
+    SYMBOL_TYPE_NATIVE_FUNCTION,
+    SYMBOL_TYPE_UNKNOWN
+};
+
+struct symbol
+{
+    const char *name;
+    int type;
+    void *data;
+};
+
 struct compile_process
 {
     // the flags in regards to how the file will be compiled

@@ -4,7 +4,6 @@
             "type": "cppbuild",
             "label": "Windows - C/C++: gcc.exe build active file",
             "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
-            //"command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -19,6 +18,7 @@
                 "${workspaceFolder}/node.c",
                 "${workspaceFolder}/parser.c",
                 "${workspaceFolder}/scope.c",
+                "${workspaceFolder}/symresolver.c",
                 "${workspaceFolder}/token.c",
                 "${workspaceFolder}/helpers/buffer.c",
                 "${workspaceFolder}/helpers/vector.c",
