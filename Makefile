@@ -1,4 +1,4 @@
-OBJECTS= ./build/compiler.o ./build/cprocess.o ./build/lexer.o ./build/token.o ./build/lex_process.o ./build/parser.o ./build/node.o ./build/scope.o ./symresolver.o ./build/expressionable.o ./build/datatype.o ./build/helpers/vector.o ./build/helpers/buffer.o  ./build/mytools.o
+OBJECTS= ./build/compiler.o ./build/cprocess.o ./build/lexer.o ./build/token.o ./build/lex_process.o ./build/parser.o ./build/node.o ./build/scope.o ./build/symresolver.o ./build/expressionable.o ./build/datatype.o ./build/helpers/vector.o ./build/helpers/buffer.o  ./build/mytools.o
 INCLUDES= -I./
 
 all: $(OBJECTS)
